@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(244, 247, 246);
+}
+
+.main {
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.main div {
+  align-self: center;
+}
+button {
+  padding: 0.5rem;
+  color: white;
+  background-color: coral;
+  margin: 0.5rem;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  color: white;
+  background-color: crimson;
+}
